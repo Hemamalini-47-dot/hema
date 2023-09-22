@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="docstaffsigninlogin.css">
+    <title>Hospital</title>
+</head>
+<body>
+    <div class="navss">
+    <header class="navs">
+        <nav class="navbar">
+        <ul>
+            <li><a href="enter.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">STAFF</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </nav>
+        <body bgcolor="grey">
+    </header> 
+</div>
+    <form>
+        <div class="user">
+        <h2>Welcome</h2>
+        <div class="usr">
+        Firstname<br>
+        <input type="text" placeholder="FirstName"><br><br>
+        E-Mail<br>
+        <input type="email" placeholder="E-Mail"><br><br>
+        Phone Number<br>
+        <input type="number" placeholder="Mobile number"><br><br>
+        Hospital<br>
+        <input type="text" placeholder="Hospital"><br><br>
+        Doctor<br>
+        <input type="text" placeholder="Doctor Name"><br><br>
+        <textarea rows="8" cols="40" placeholder="Address"></textarea><br><br>
+        <div class="submtbtn">
+        <input type="submit" name="Submit" value="Enter">
+    </div>
+    </div>
+    </div>
+
+    </form>
+</body>
+</html>
